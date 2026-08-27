@@ -1,0 +1,44 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "banyancode_max_subagents": 8,
+  "agent": {
+    "joat": {
+      "mode": "primary",
+      "description": "Jack of All Trades — orchestrates subagents for text-only coding tasks"
+    },
+    "coder": {
+      "mode": "subagent",
+      "description": "Frontend and backend implementation (text/code only)"
+    },
+    "planner": {
+      "mode": "subagent",
+      "description": "Task breakdown and multi-planner coordination"
+    },
+    "memory": {
+      "mode": "subagent",
+      "description": "Embeddings and rerank for durable memory"
+    },
+    "docs": {
+      "mode": "subagent",
+      "description": "Documentation and README maintenance"
+    },
+    "scout": {
+      "mode": "subagent",
+      "description": "Repository exploration via code graph"
+    },
+    "researcher": {
+      "mode": "subagent",
+      "description": "Free web research (DuckDuckGo)"
+    },
+    "reviewer": {
+      "mode": "subagent",
+      "description": "Diff review and verification"
+    }
+  },
+  "references": {
+    "workspace": {
+      "path": "~/projects/homestead",
+      "description": "Homestead project workspace root"
+    }
+  }
+}
