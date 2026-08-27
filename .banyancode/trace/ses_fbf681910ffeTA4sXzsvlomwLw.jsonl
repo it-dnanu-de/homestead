@@ -1,2 +1,0 @@
-{"type":"tool.call","phase":"start","tool":"codegraph_staleness","input":{},"ts":1787790105398,"sessionID":"ses_fbf681910ffeTA4sXzsvlomwLw"}
-{"type":"tool.call","phase":"end","tool":"codegraph_staleness","resultSummary":"staleFiles=0 missingFiles=0 totalFiles=0","ms":1,"ts":1787790105400,"sessionID":"ses_fbf681910ffeTA4sXzsvlomwLw"}
